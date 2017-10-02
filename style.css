@@ -1,0 +1,123 @@
+.clear{
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 100%;
+	height:100%;
+	background-color: red;
+
+
+}
+
+#zoom{
+	width: 280px;
+	border: 1px solid black;
+	position: absolute;
+	left:38%;
+	z-index: 100;
+}
+
+#player {
+	width: 100%;
+	height: 50%;
+	background-color: grey;
+	position: relative;
+	top:50%;
+}
+
+#center{
+	width:1225px;
+	height: 100%;
+	border: 1px solid black;
+	float: right;
+}
+
+#left{
+	width:110px;
+	height: 100%;
+	border: 1px solid black;
+	padding-left: 10px;
+}
+
+#lands{
+	width:75%;
+	height: 47%;
+	border: 1px solid black;
+	float: left;
+}
+
+#creatures{
+	width:100%;
+	height: 53%;
+	border: 1px solid black;
+	float: left;
+}
+
+
+#deck{
+	width: 100px;
+	height: 50%;
+	border: 1px solid green;
+
+}
+
+#graveyard{
+	width: 100px;
+	height: 50%;
+	border: 1px solid green;
+}
+
+.card{
+	width: 9.8%;
+	height: 100%;
+	border: 1px solid green;
+	float: left;
+}
+
+.card-land{
+	width: 12%;
+	height: 100%;
+	border: 1px solid green;
+	float: left;
+}
+
+.card-hand{
+	width: 12%;
+	height: 100%;
+	border: 1px solid green;
+	float: left;
+
+}
+
+#stats{
+	width:24%;
+	height: 47%;
+	border: 1px solid black;
+	float: right;
+}
+
+
+#cards-hand{
+	width: 100%;
+	
+	margin-top:6%; 
+	border: 2px solid blue;
+	position: absolute;
+	display: none;
+
+
+}
+
+#aba{
+	width: 100%;
+	height: 20px;
+	margin-top:21%;
+	border: 2px solid pink;
+	position: absolute;
+}
