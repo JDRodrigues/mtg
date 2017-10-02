@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>MTG Game</title>
+
+    	<meta charset="utf-8">
+    	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    	<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+
+	<body>
+		<div id="container">
+			<div id="zoom"></div>
+
+			<div id="player">
+				<div id="center">
+					<div id="creatures">
+						<div id="um"  class="card" ></div>
+						<div id="dois" class="card"></div>
+						<div id="tres" class="card"></div>
+						<div id="quatro" class="card"></div>
+						<div id="cinco" class="card"></div>
+						<div id="seis" class="card"></div>
+						<div id="sete" class="card"></div>
+						<div id="oito" class="card"></div>
+						<div id="nove" class="card"></div>
+						<div id="dez" class="card"></div>
+						
+
+
+
+					</div>
+					
+					<div id="lands">
+						<div class="card-land"></div>
+						<div class="card-land"></div>
+						<div class="card-land"></div>
+						<div class="card-land"></div>
+						<div class="card-land"></div>
+						<div class="card-land"></div>
+						<div class="card-land"></div>
+						<div class="card-land"></div>
+						
+						
+					</div>
+
+					<div id="stats"></div>
+				</div>
+				<div id="left">
+					<div id="deck"></div>
+					<div id="graveyard"></div>
+				</div>
+				
+
+			</div>
+			<div class="clear"></div>
+			<div id="cards-hand" onmouseout="displayNone()">
+				
+				<div id="hndum" class="card-hand" onmouseover="zoom('hndum')" onmouseout="clearImg('merda')" onClick="clearImg('merda')"></div>
+				<div id="hnddois" class="card-hand" onmouseover="zoom('hnddois')" onmouseout="clearImg('merda')" onClick="clearImg('merda')"></div>
+				<div id="hndtres" class="card-hand" onmouseover="zoom('hndtres')" onmouseout="clearImg('merda')" onClick="clearImg('merda')"></div>
+				<div id="hndquatro" class="card-hand" onmouseover="zoom('hndquatro')" onmouseout="clearImg('merda')" onClick="clearImg('merda')"></div>
+				<div id="hndcinco" class="card-hand" onmouseover="zoom('hndcinco')" onmouseout="clearImg('merda')" onClick="clearImg('merda')"></div>
+				<div id="hndseis" class="card-hand" onmouseover="zoom('hndseis')" onmouseout="clearImg('merda')" onClick="clearImg('merda')"></div>
+				<div id="hndsete" class="card-hand" onmouseover="zoom('hndsete')" onmouseout="clearImg('merda')" onClick="clearImg('merda')"></div>
+				<div id="hndoito" class="card-hand" onmouseover="zoom('hndoito')" onmouseout="clearImg('merda')" onClick="clearImg('merda')"></div>
+				
+				
+			</div>
+
+			<div id="aba" onmouseover="displayBlock()"></div>
+
+			<div id="opponent"></div>
+
+		</div>
+
+		
+		<script type="text/javascript" src="mtgtable.js"></script>
+	</body>
+
+</html>
